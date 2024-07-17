@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    font-family: "Plus Jakarta Sans",
+        sans-serif !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0 !important;
+}
+
+/* ==============ROOT VARIABLES============= */
+:root {
+    /* FONT SIZES */
+    --font-xsm: 14px;
+    --font-xmd: 16px;
+    --font-sm: 18px;
+    --font-m: 20px;
+    --font-md: 24px;
+    --font-lg: 28px;
+    --font-xl: 32px;
+    --font-xxg: 48px;
+    --font-xxl: 64px;
+
+    /* ROOT-COLORS  */
+    --white-color: #fff;
+    --black-color: #000;
+    --red-color: #be9602;
+    --dark-black: #191919;
+    --dark-Yellow: #e0a922;
+    --border-light: #cccccc;
+    --Border-pink: #dadada;
+    --Brown: #525252;
+    --Border-Green: #dedede;
+    --Mehroon: #6d6d6d;
+    --grey: #333333;
+    --border-grey: #4d4d4d;
+    --Khaki: #f6e5bd;
+    --Copyright: #606060;
+    --Button-border: #e6ba4e;
+}
+
+/* ================= MEDIA QUERISE FONT ======================= */
+@media (max-width: 1399.98px) {
+    :root {
+        --font-xsm: 14px;
+        --font-xmd: 16px;
+        --font-sm: 18px;
+        --font-m: 20px;
+        --font-md: 22px;
+        --font-lg: 24px;
+        --font-xl: 28px;
+        --font-xxg: 40px;
+        --font-xxl: 56px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    :root {
+        --font-xsm: 14px;
+        --font-xmd: 16px;
+        --font-sm: 18px;
+        --font-m: 20px;
+        --font-md: 22px;
+        --font-lg: 24px;
+        --font-xl: 28px;
+        --font-xxg: 38px;
+        --font-xxl: 56px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    :root {
+        --font-xsm: 14px;
+        --font-xmd: 16px;
+        --font-sm: 16px;
+        --font-m: 18px;
+        --font-md: 20px;
+        --font-lg: 22px;
+        --font-xl: 26px;
+        --font-xxg: 36px;
+        --font-xxl: 52px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    :root {
+        --font-xsm: 12px;
+        --font-xmd: 14px;
+        --font-sm: 14px;
+        --font-m: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-xxg: 32px;
+        --font-xxl: 36px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    :root {
+        --font-xsm: 12px;
+        --font-xmd: 14px;
+        --font-sm: 14px;
+        --font-m: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-xxg: 28px;
+        --font-xxl: 32px;
+    }
+}
+
+
+/* ======================= FONT WEIGHT============================== */
+.fw_400 {
+    font-weight: 400 !important;
+}
+
+.fw_500 {
+    font-weight: 500 !important;
+}
+
+.fw_600 {
+    font-weight: 600 !important;
+}
+
+
+/* ======================= COMMON COLORS COLORS============================== */
+
+.white {
+    color: var(--white-color) !important;
+}
+
+.black {
+    color: var(--black-color) !important;
+}
+
+.red {
+    color: var(--red-color) !important;
+}
+
+.dark_black {
+    color: var(--dark-black) !important;
+}
+
+.dark_yellow {
+    color: var(--dark-Yellow) !important;
+}
+
+.border_light {
+    color: var(--border-light) !important;
+}
+
+.border_pink {
+    color: var(--Border-pink) !important;
+}
+
+.brown {
+    color: var(--Brown) !important;
+}
+
+.border_green {
+    color: var(--Border-Green) !important;
+}
+
+.Mehroon {
+    color: var(--Mehroon) !important;
+}
+
+.grey {
+    color: var(--grey) !important;
+}
+
+.border_grey {
+    color: var(--border-grey) !important;
+}
+
+.khaki {
+    color: var(--Khaki) !important;
+}
+
+.copyright {
+    color: var(--Copyright) !important;
+}
+
+.button_border {
+    color: var(--Button-border) !important;
+}
+
+
+/* ======================= COMMON FONTS CLASSES============================== */
+
+.font_xsm {
+    font-size: var(--font-xsm);
+}
+
+.font_xmd {
+    font-size: var(--font-xmd);
+}
+
+.font_sm {
+    font-size: var(--font-sm);
+}
+
+.font_m {
+    font-size: var(--font-m);
+}
+
+.font_md {
+    font-size: var(--font-md);
+}
+
+.font_lg {
+    font-size: var(--font-lg);
+}
+
+.font_xl {
+    font-size: var(--font-xl);
+}
+
+.font_xxg {
+    font-size: var(--font-xxg);
+}
+
+.font_xxl {
+    font-size: var(--font-xxl);
+}
+
+
+/* ======================= COMMON LINE HEIGHT ============================== */
+.line_height_125 {
+    line-height: 125%;
+}
+
+.line_height_150 {
+    line-height: 150%;
+}
+
+
+/* ======================= COMMON BUTTON CSS ============================== */
+.common_button {
+    font-size: var(--font-xmd);
+    width: 194px;
+    height: 49px;
+    color: var(--white-color);
+    border: none;
+    background-image: url("../src/images/svg/Button-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.common_button:hover {
+    color: var(--black-color);
+    transform: scale(1.05);
+}
+
+
+/* ======================= COMMON TRANSITION ============================== */
+.transition {
+    transition: 0.3s ease-in-out;
+}
+
+
+/* ======================= COMMON MAIN HEADING ============================== */
+.main_heading {
+    font-size: var(--font-xxg);
+    line-height: 160%;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.main_para {
+    font-size: var(--font-xmd);
+    line-height: 160%;
+    font-weight: 400;
+    color: var(--grey);
+    line-height: 124%;
+}
+
+/* ======================= COMMON CLASSES ============================== */
+.cursor {
+    cursor: pointer;
+}
+
+.custom_container {
+    max-width: 1140px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
