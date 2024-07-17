@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0 !important;
+}
+
+/* ==============ROOT VARIABLES============= */
+:root {
+  /* FONT SIZES */
+  --font-xsm: 12px;
+  --font-sm: 14px;
+  --font-m: 16px;
+  --font-md: 18px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+  --font-xxg: 56px;
+  --font-xxl: 64px;
+
+  /* ROOT-COLORS  */
+  --white-color: #fff;
+  --black-color: #000;
+  --red-color: #be9602;
+  --dark-black: #191919;
+  --dark-Yellow: #e0a922;
+  --border-light: #cccccc;
+  --Border-pink: #dadada;
+  --Brown: #525252;
+  --Border-Green: #dedede;
+  --Mehroon: #6d6d6d;
+  --grey: #333333;
+  --border-grey: #4d4d4d;
+  --Khaki: #f6e5bd;
+  --Copyright: #606060;
+}
+
+/* ================= MEDIA QUERISE FONT ======================= */
+@media (max-width: 1399.98px) {
+  :root {
+    --font-xsm: 12px;
+    --font-sm: 14px;
+    --font-m: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-xxg: 45px;
+    --font-xxl: 48px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-xsm: 12px;
+    --font-sm: 14px;
+    --font-m: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 22px;
+    --font-xxg: 40px;
+    --font-xxl: 45px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-xsm: 12px;
+    --font-sm: 14px;
+    --font-m: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 18px;
+    --font-xxg: 36px;
+    --font-xxl: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-xsm: 12px;
+    --font-sm: 12px;
+    --font-m: 16px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 16px;
+    --font-xxg: 34px;
+    --font-xxl: 35px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-xsm: 12px;
+    --font-sm: 12px;
+    --font-m: 14px;
+    --font-md: 14px;
+    --font-lg: 16px;
+    --font-xl: 14px;
+    --font-xxg: 30px;
+    --font-xxl: 32px;
+  }
+}
