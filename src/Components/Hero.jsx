@@ -17,7 +17,7 @@ function Hero() {
       />
       <div className="container custom_container mt-1">
         <div className="row text-center">
-          <div className="col-10 col-lg-10 col-xl-9 col-xxl-11 m-auto">
+          <div className="col-11 col-lg-10 col-xl-9 col-xxl-11 m-auto">
             <p className="line_height_125 font_m fw_600 grey">
               Your Ultimate Pooja Room Destination
             </p>
@@ -32,8 +32,6 @@ function Hero() {
             <button className="common_button">Get into touch</button>
           </div>
         </div>
-
-        <video src="./"></video>
       </div>
     </section>
   );
